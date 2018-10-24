@@ -27,16 +27,11 @@
       <!-- THIS IS WHERE THE SCORE GOES AUTOMATICALLY -->
     </div>
     <!-- THIS CALLS THE SCRIPT THAT GETS THE MEI SCORE -->
-   <script src="js/index.js"></script>
-    <script>
-      var xhr = new XMLHttpRequest()
-<<<<<<< HEAD
-
-      xhr.open('GET', 'data/across_the_road.mei') // <-- change this to the right file -->
-=======
-      xhr.open('GET', 'data/example.mei') // <-- change this to the right file
->>>>>>> parent of 9328ec0... Update index-meta.html
-      xhr.send(null)
+    <script src="js/index.js"></script>
+        <script>
+          var xhr = new XMLHttpRequest()
+          xhr.open('GET', 'data/across_the_road.mei') // <-- change this to the right file
+          xhr.send(null)
 
       /* Deal with the response */
       xhr.onreadystatechange = function () {
