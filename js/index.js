@@ -21,3 +21,4 @@ vrvToolkit.setOptions(options)
 
 /* Show the score */
 showScore('score', 'data/across_the_road.mei') // <-- CHANGE THIS TO YOUR FILE
+showScore('score2' 'data/halloween.mei')
