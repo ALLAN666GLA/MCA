@@ -5,7 +5,13 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+              <title>Halloween: Main Theme<title/>
+                <composer>John Carpenter</composer>
+                <arranger>Transcribed by Allan McCafferty</arranger>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>Allan McCafferty</name>
+                </respStmt>
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>
@@ -16,6 +22,16 @@
                     <p xml:id="p-0000001317112524">Transcoded from MusicXML</p>
                 </application>
             </appInfo>
+            <editorialDecl>
+              <interpretation>
+                <p>Every individual musical element in the piece was done in midi and constructed in Ableton Live 9.
+                The original audio file was harmonically analysed and every musical aspect, particularly the notes, the note lengths,
+                and the chords were interpreted into a midi notes. After exporting the midi file it was opened with Musescore then
+                converted into a musical transcription.
+                Time was taken to make sure each musical note of the midi files and the audio file correlated in terms of pitch and time.
+                </p>
+              </interpretation>
+            </editorialDecl>
         </encodingDesc>
     </meiHead>
     <music>
