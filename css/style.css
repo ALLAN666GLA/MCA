@@ -16,7 +16,7 @@ body {
   padding: 13px;
 }
 h1 {
-  text-align: center;
+  text-align: left;
   font-size: 2.35em;
 }
 h2 {
@@ -44,5 +44,5 @@ g[class='note'] {
 }
 
 #controls {
-  float: right;
+  float: center;
 }
