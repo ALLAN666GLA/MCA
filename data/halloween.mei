@@ -25,7 +25,6 @@
                 Escape from New York: Across the Road, The Fog: Main Theme, The Fog: Aboard the Seagrass</p>
               </contents>
             </seriesStmt>
-              
             <pubStmt></pubStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001624043497">
@@ -38,9 +37,9 @@
             <editorialDecl>
               <interpretation>
                 <p>Every individual musical element in the piece was done in midi and constructed in Ableton Live 9.
-                The original audio file was harmonically analysed and every musical aspect, particularly the notes, the note lengths,
+                The original audio file was harmonically analysed and the melodic piano parts of the entire piece, particularly the notes, the note lengths,
                 and the chords were interpreted into a midi notes. After exporting the midi file it was opened with Musescore then
-                converted into a musical transcription.
+                converted into a MEI, which is this encoded musical transcription.
                 Time was taken to make sure each musical note of the midi files and the audio file correlated in terms of pitch and time.
                 </p>
               </interpretation>

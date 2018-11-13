@@ -5,8 +5,26 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title />
+            <title xml:id="title3">Escape from New York</title>
+            <title type="subtitle">
+              <identifier>Encoding Music of John Carpenter</identifier>
+            </title>
+            <composer xml:id="title-02">John Carpenter</composer>
+            <arranger xml:id="title-03">Transcribed by Allan McCafferty</arranger>
+            <respStmt>
+                <resp>Encoded by</resp>
+                <resp>Allan McCafferty</resp>
+            </respStmt>
             </titleStmt>
+            <seriesStmt>
+              <title>AN ANALYSIS OF SELECTED MUSIC FROM JOHN CARPENTER MOVIES</title>
+              <editor>Allan McCafferty</editor>
+              <identifier>MCA-2018</identifier>
+              <contents>
+                <p>Halloween: Main Theme, Halloween: The Bogeyman, Escape from New York: Main Theme,
+                Escape from New York: Across the Road, The Fog: Main Theme, The Fog: Aboard the Seagrass</p>
+              </contents>
+            </seriesStmt>
             <pubStmt></pubStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000001553792218">
