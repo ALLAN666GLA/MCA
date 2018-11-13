@@ -1,0 +1,17 @@
+@relation Converted_from_ACE_XML
+
+@attribute Number_of_Pitches numeric
+@attribute Number_of_Pitch_Classes numeric
+@attribute Number_of_Common_Pitches numeric
+@attribute Number_of_Common_Pitch_Classes numeric
+@attribute Range numeric
+@attribute Mean_Pitch numeric
+@attribute Mean_Pitch_Class numeric
+@attribute Most_Common_Pitch numeric
+@attribute Most_Common_Pitch_Class numeric
+@attribute Interval_Between_Most_Prevalent_Pitches numeric
+@attribute Pitch_Variability numeric
+@attribute Most_Common_Melodic_Interval numeric
+
+@data
+38.0, 12.0, 0.0, 0.0, 52.0, 72.0, 5.477, 76.0, 9.0, 7.0, 10.1, 4.0
