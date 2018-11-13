@@ -20,4 +20,4 @@ options = {
 vrvToolkit.setOptions(options)
 
 /* Show the score */
-showScore('score', 'data/the_bogeyman.mei') // <-- CHANGE THIS TO YOUR FILE
+showScore('score2', 'data/the_bogeyman.mei') // <-- CHANGE THIS TO YOUR FILE
