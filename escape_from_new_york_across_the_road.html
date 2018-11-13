@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>My Music Encoding Project</title>
+    <meta charset="utf-8">
+    <meta name="description" content="An Analysis of selected Music from John Carpenter Movies">
+    <meta name="author" content="Me">
+    <link rel="stylesheet" href="css/style.css" media="all" />
+    <script src="js/verovio-toolkit.js"></script>
+    <script src="js/utils.js"></script>
+  </head>
+
+  <body>
+
+    <div id="content">
+      <!-- ADD YOUR HTML CONTENT HERE! -->
+      <div id="wrapper">
+      <div id="topnavigation">
+      		<ul>
+      			<li><a href="index.html">HOME</a></li>
+      			<li><a href="audio.html">AUDIO</a></li>
+      			<li><a href="media.html">MEDIA</a></li>
+            <li><a href="halloween.html">HALLOWEEN</a></li>
+            <li><a href="halloween_the_bogeyman.html">HALLOWEEN: THE BOGEYMAN</a></li>
+            <li><a href="escape_from_new_york.html">ESCAPE FROM NEW YORK</a></li>
+            <li><a href="escape_from_new_york_across_the_road.html">ESCAPE FROM NEW YORK: ACROSS THE ROAD</a></li>
+            <li><a href="the_fog.html">THE FOG</a></li>
+            <li><a href="the_fog_aboard_the_seagrass">THE FOG: ABOARD THE SEAGRASS PART 3</a></li>
+      		</ul>
+      	</div><br>
+      	<div id="content">
+      <h1>MUSIC FROM JOHN CARPENTER'S ESCAPE FROM NEW YORK</h1>
+      <h2>Title: Across the Road</h2>
+      <p id="meta"></p>
+
+    </div>
+
+    <!-- **** DO NO EDIT BELOW THIS LINE **** -->
+    <!-- * **** **** **** **** **** **** **** -->
+    <div id="score">
+      <!-- THIS IS WHERE THE SCORE GOES AUTOMATICALLY -->
+    </div>
+    <!-- THIS CALLS THE SCRIPT THAT GETS THE MEI SCORE -->
+    <script src="js/index.js"></script>
+        <script>
+          var xhr = new XMLHttpRequest()
+          xhr.open('GET', 'data/across_the_road.mei') // <-- change this to the right file -->
+          xhr.send(null)
+
+      /* Deal with the response */
+      xhr.onreadystatechange = function () {
+        var DONE = 4
+        var OK = 200
+        if (xhr.readyState === DONE) {
+          if (xhr.status === OK) {
+            var parser = new DOMParser()
+            var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='title-02']").textContent + "</p>"
+            /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
+           */
+           /* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
+            */
+          }
+        }
+      }
+    </script>
+  </body>
+
+</html>
