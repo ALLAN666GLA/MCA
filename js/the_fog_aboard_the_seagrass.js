@@ -20,4 +20,4 @@ options = {
 vrvToolkit.setOptions(options)
 
 /* Show the score */
-showScore('score', 'data/the_fog_aboard_the_seagrass_part_3.mei') // <-- CHANGE THIS TO YOUR FILE
+showScore('score-6', 'data/the_fog_aboard_the_seagrass_part_3.mei') // <-- CHANGE THIS TO YOUR FILE
