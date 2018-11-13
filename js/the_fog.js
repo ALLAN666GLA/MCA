@@ -20,4 +20,4 @@ options = {
 vrvToolkit.setOptions(options)
 
 /* Show the score */
-showScore('score', 'data/halloween.mei') // <-- CHANGE THIS TO YOUR FILE
+showScore('score5', 'data/the_fog_theme.mei') // <-- CHANGE THIS TO YOUR FILE
