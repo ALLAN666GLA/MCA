@@ -6,12 +6,12 @@
         <fileDesc>
             <titleStmt>
               <title xml:id="title-01">Halloween: Main Theme</title>
-                <composer xml:id="title-02">John Carpenter</composer>
-                <arranger xml:id="title-03">Transcribed by Allan McCafferty</arranger>
-                <respStmt>
-                    <resp>Encoded by</resp>
-                    <name>Allan McCafferty</name>
-                </respStmt>
+              <composer xml:id="title-02">John Carpenter</composer>
+              <arranger xml:id="title-03">Transcribed by Allan McCafferty</arranger>
+              <respStmt>
+                  <resp>Encoded by</resp>
+                  <name>Allan McCafferty</name>
+              </respStmt>
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>
