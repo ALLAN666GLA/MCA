@@ -5,9 +5,9 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-              <title xml:id="title-stmt">Halloween: Main Theme</title>
-                <composer>John Carpenter</composer>
-                <arranger>Transcribed by Allan McCafferty</arranger>
+              <title xml:id="title-01">Halloween: Main Theme</title>
+                <composer xml:id="title-02">John Carpenter</composer>
+                <arranger xml:id="title-03">Transcribed by Allan McCafferty</arranger>
                 <respStmt>
                     <resp>Encoded by</resp>
                     <name>Allan McCafferty</name>
