@@ -14,14 +14,20 @@ body {
   background-color: #F1EA7F;
   padding: 13px;
 }
+
+p {
+  text-align: left
+}
 h1 {
   text-align: left;
   font-size: 2.35em;
 }
 h2 {
+  text-align: left
   font-size: 2em;
 }
 h3 {
+  text-align: left
   font-size: 1.75em;
 }
 h4 {
