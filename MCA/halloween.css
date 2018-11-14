@@ -1,0 +1,45 @@
+html {
+  font-size: 50%;
+  font-family: serif;
+}
+body {
+  font-size: 1.8rem;
+  line-height: 1.618;
+  max-width: 38em;
+  margin: auto;
+  color: #111111;
+  background-color: #F1EA7F;
+  background-image: url("https://imgur.com/a/VqC9OLR");
+  padding: 13px;
+}
+h1 {
+  text-align: left;
+  font-size: 2.35em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.75em;
+}
+h4 {
+  font-size: 1.5em;
+}
+h5 {
+  font-size: 1.25em;
+}
+h6 {
+  font-size: 1em;
+}
+
+g[class='note'] {
+  color: red;
+}
+
+.highlighted {
+  fill: blue
+}
+
+#controls {
+  float: center;
+}
