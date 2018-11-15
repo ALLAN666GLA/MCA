@@ -5,15 +5,14 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-              <title xml:id="title1">Halloween: Main Theme</title>
+              <title xml:id="title1">Halloween: Main Theme (1978)</title>
               <title type="subtitle">
                 <identifier>Encoded Music of John Carpenter</identifier>
               </title>
-              <composer xml:id="title2">John Carpenter</composer>
-              <arranger xml:id="title3">Transcribed by Allan McCafferty</arranger>
+              <composer xml:id="title2">Composed by John Carpenter</composer>
               <respStmt>
-                  <resp>Encoded by</resp>
-                  <resp>Allan McCafferty</resp>
+                  <resp xml:id="title3">Encoded by</resp>
+                  <resp xml:id="title4">Allan McCafferty</resp>
               </respStmt>
             </titleStmt>
             <seriesStmt>
