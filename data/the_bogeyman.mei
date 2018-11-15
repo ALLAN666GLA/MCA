@@ -5,15 +5,14 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-            <title xml:id="title2">Halloween: The Bogeyman</title>
+            <title xml:id="title1">Music from from Halloween (1978): "The Bogeyman"</title>
             <title type="subtitle">
               <identifier>Encoding Music of John Carpenter</identifier>
             </title>
-            <composer xml:id="title-02">John Carpenter</composer>
-            <arranger xml:id="title-03">Transcribed by Allan McCafferty</arranger>
+            <composer xml:id="title2">Composed by John Carpenter</composer>
             <respStmt>
-                <resp>Encoded by</resp>
-                <resp>Allan McCafferty</resp>
+                <resp xml:id="title3">Encoded by</resp>
+                <resp xml:id="title4">Allan McCafferty</resp>
             </respStmt>
             </titleStmt>
             <seriesStmt>
