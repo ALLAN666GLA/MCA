@@ -62,7 +62,7 @@
           if (xhr.status === OK) {
             var parser = new DOMParser()
             var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
-            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='title6']").textContent + "</p>"
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='title1']").textContent + "</p>"
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='title7']").textContent + "</p>"
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='title8']").textContent + "</p>"
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='title9']").textContent + "</p>"
