@@ -9,7 +9,7 @@
             <title type="subtitle">
               <identifier>Encoding Music of John Carpenter</identifier>
             </title>
-            <composer xml:id="title2">John Carpenter</composer>
+            <composer xml:id="title2">Composed by John Carpenter</composer>
             <arranger>Transcribed by Allan McCafferty</arranger>
             <respStmt>
                 <resp xml:id="title3">Encoded by</resp>
