@@ -5,15 +5,15 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-            <title xml:id="title3">Escape from New York</title>
+            <title xml:id="title1">Escape from New York</title>
             <title type="subtitle">
               <identifier>Encoding Music of John Carpenter</identifier>
             </title>
-            <composer xml:id="title-02">John Carpenter</composer>
+            <composer xml:id="title2">John Carpenter</composer>
             <arranger xml:id="title-03">Transcribed by Allan McCafferty</arranger>
             <respStmt>
-                <resp>Encoded by</resp>
-                <resp>Allan McCafferty</resp>
+                <resp xml:id="title3">Encoded by</resp>
+                <resp xml:id="title4">Allan McCafferty</resp>
             </respStmt>
             </titleStmt>
             <seriesStmt>
